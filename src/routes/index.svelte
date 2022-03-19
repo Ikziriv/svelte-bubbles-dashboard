@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import { Row, RowBorder } from "bubbles-ui";
+    import { Column100, Column50, Column } from "bubbles-ui";
+    import { Center, Card } from "bubbles-ui";
+</script>
+
+<Center>
+    <Card>Your card content here</Card>
+ </Center>
